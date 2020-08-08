@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myapp", "myapp\myapp.csproj", "{9C228E07-654E-4110-9CDF-3FDCCCD6DCC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myapp", "myapp\myapp.csproj", "{9C228E07-654E-4110-9CDF-3FDCCCD6DCC7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D832EC75-FA8E-4A67-BA50-4ACF53C7EB94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9C228E07-654E-4110-9CDF-3FDCCCD6DCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C228E07-654E-4110-9CDF-3FDCCCD6DCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C228E07-654E-4110-9CDF-3FDCCCD6DCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D832EC75-FA8E-4A67-BA50-4ACF53C7EB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D832EC75-FA8E-4A67-BA50-4ACF53C7EB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D832EC75-FA8E-4A67-BA50-4ACF53C7EB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D832EC75-FA8E-4A67-BA50-4ACF53C7EB94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
