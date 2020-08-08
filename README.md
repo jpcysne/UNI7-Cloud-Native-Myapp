@@ -1,11 +1,6 @@
 # UNI7-Cloud-Native-Myapp
 UNI7-Cloud-Native-Myapp
 
-## How to Run
-```
-go run main.go
-```
-
 ## Building docker image
 ```
 docker build -t jprubio/myapp:<VERSION_TAG> . 
